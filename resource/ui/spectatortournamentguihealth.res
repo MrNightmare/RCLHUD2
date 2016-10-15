@@ -68,7 +68,7 @@
 		"enabled"		    "1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"					"Pix14"
+		"font"					"NormalCode14"
 		"fgcolor"		    "HP"
 	}
 	"PlayerStatusHealthValueSpecguiShadow"
@@ -84,7 +84,7 @@
 		"enabled"		    "1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"					"Pix14"
+		"font"					"NormalCode14"
 		"fgcolor"		    "ShadowBlack"
 	}
 	"PlayerStatusHealthValueSpecguiLow"
@@ -100,7 +100,7 @@
 		"enabled"		    "1"
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
-		"font"					"Pix14"
+		"font"					"NormalCode12"
 		"fgcolor"		    "0 0 0 0"
 	}				
 	"SpecHealthBG"	

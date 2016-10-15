@@ -47,7 +47,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 0 110 255"
+		"iconColor"		"255 255 255 255"
 	}
 
 	"TitleLabel"
@@ -68,7 +68,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"TitleLabelDropshadow"

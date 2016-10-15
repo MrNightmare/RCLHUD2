@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"200 10 110 255"
+		"fgcolor"		"200 10 20 255"
 	}
 	
 	"ItemBackground"	
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"255 0 0 255"
+		"iconColor"		"200 10 20 255"
 	}
 	
 	"CantBuildReason"
@@ -58,7 +58,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"NormalCode8"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"200 10 20 255"
 		"xpos"			"0"
 		"ypos"			"30"
 		"zpos"			"2"
@@ -94,7 +94,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"NormalCode20"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"200 10 20 255"
 		"xpos"			"-3"
 		"ypos"			"31"
 		"zpos"			"4"

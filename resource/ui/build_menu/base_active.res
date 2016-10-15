@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ItemBackground"
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 255 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"MetalIcon"	
@@ -75,7 +75,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"NormalCode20"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 255 255 255"
 		"xpos"			"-3"
 		"ypos"			"31"
 		"zpos"			"4"
@@ -148,7 +148,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"255 255 255 255"
 		"xpos"			"0"
 		"ypos"			"52"
 		"zpos"			"1"

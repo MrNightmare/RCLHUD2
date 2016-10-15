@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
@@ -55,7 +55,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"0 255 0 255"
 	}	
 
 	"UnavailableLabel"
@@ -76,7 +76,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"0 255 0 255"
 	}		
 			
 	"NumberBg"	
@@ -100,7 +100,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"
-		"fgcolor"		"189 189 189 255"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"-28"
 		"ypos"			"-5"
 		"zpos"			"1"

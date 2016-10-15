@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"0 225 0 255"
 	}
 
 	"ItemBackground"
@@ -34,7 +34,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"ProgressOffWhite"
+		"iconColor"		"0 0 0 255"
 	}
 	
 	"BuildingIcon"	
@@ -50,24 +50,23 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 255 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"13"
-		"ypos"			"58"
+		"xpos"			"10"
+		"ypos"			"18"
 		"zpos"			"1"
-		"wide"			"7"
-		"tall"			"7"
+		"wide"			"10"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"255 255 255 255"
-		"textAlignment"	"center"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"CostLabel"
@@ -148,7 +147,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"0"
 		"ypos"			"52"
 		"zpos"			"1"

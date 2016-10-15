@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"0 255 0 255"
 	}
 
 	"ItemBackground"
@@ -42,7 +42,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"NormalCode8"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"0"
 		"ypos"			"30"
 		"zpos"			"2"
@@ -98,7 +98,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"
-		"fgcolor"		"255 0 0 255"
+		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"58"
 		"zpos"			"1"

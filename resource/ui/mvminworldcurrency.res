@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyLabel"
-		"font"			"Code12"
+		"font"			"NormalCode12"
 		"fgcolor"		"ahudBlack"
 		"xpos"			"4"
 		"ypos"			"0"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"Code12"
+		"font"			"NormalCode12"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"47"
 		"ypos"			"0"

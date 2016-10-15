@@ -2,18 +2,33 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"447"
-		"tall"			"170"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"450"
+		"tall"			"180"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground" "0"
+	}
+	
+	"ItemBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"250"
+		"tall"			"88"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"image"			"pipboy_overlay"
+		"tileImage"		"1"
+		"drawcolor"		"192 192 192 255"
 	}
 	
 	"MenuBG"
@@ -33,17 +48,18 @@
 		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
+	
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"pipboy_engineer"
 		"tileImage"		"0"
@@ -54,32 +70,16 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"15"
-		"ypos"			"-3"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"38"
-		"tall"			"38"
+		"wide"			"48"
+		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 255 255 255"
-	}
-	
-	"BuildIconShadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildIconShadow"
-		"xpos"			"16"
-		"ypos"			"-2"
-		"zpos"			"0"
-		"wide"			"38"
-		"tall"			"38"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"ico_build"
-		"iconColor"		"ShadowBlack"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"TitleLabel"
@@ -100,7 +100,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"TitleLabelDropshadow"
@@ -142,6 +142,7 @@
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"active_item_1"

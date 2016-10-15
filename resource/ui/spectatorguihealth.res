@@ -45,14 +45,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"12"
-		"ypos"			"5"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/ico_demolish"
+		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValueSpec"
@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Pix20"
+		"font"			"NormalCode26"
 		"fgcolor"		"HP"
 		"labeltext"		"%Health%"
 	}
@@ -83,7 +83,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Pix20"
+		"font"			"NormalCode26"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 	}

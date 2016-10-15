@@ -4,16 +4,32 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"447"
+		"wide"			"250"
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"paintbackground" "0"
+	}
+
+	"ItemBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"150"
+		"tall"			"88"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"pipboy_overlay"
+		"tileImage"		"1"
+		"drawcolor"		"192 192 192 255"
 	}
 	
 	"MenuBG"
@@ -33,23 +49,24 @@
 		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
+	
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BackgroundEngineer"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"pipboy_engineer"
 		"tileImage"		"0"
 		"tileVertically" "0"
 	}
-	
+
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -63,23 +80,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 255 255 255"
-	}
-	
-	"BuildIconShadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildIconShadow"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"48"
-		"tall"			"48"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"ico_build"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"TitleLabel"
@@ -100,7 +101,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"TitleLabelDropshadow"
@@ -142,6 +143,7 @@
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"available_target_1"

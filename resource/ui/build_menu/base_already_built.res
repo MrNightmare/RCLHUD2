@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"189 189 189 255"
 	}
 	
 	"ItemBackground"	
@@ -55,7 +55,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"189 189 189 255"
 	}
 	
 	"MetalIcon"	

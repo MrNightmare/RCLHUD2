@@ -2,7 +2,7 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"14"
@@ -11,9 +11,24 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
+		"paintbackground" "0"
+	}
+	
+	"ItemBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"250"
+		"tall"			"88"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"image"			"pipboy_overlay"
+		"tileImage"		"1"
+		"drawcolor"		"192 192 192 255"
 	}
 	
 	"MenuBG"
@@ -34,12 +49,29 @@
 		"PaintBackgroundType"	"0"
 	}
 	
+	"BackgroundEngineer"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BackgroundEngineer"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"	
+		"image"			"pipboy_engineer"
+		"tileImage"		"0"
+		"tileVertically" "0"
+	}
+	
 	"DestroyIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
-		"xpos"			"0"
-		"ypos"			"-2"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"64"
 		"tall"			"64"
@@ -47,9 +79,9 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 0 110 255"
+		"iconColor"		"0 255 0 255"
 	}
-
+	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -57,7 +89,7 @@
 		"font"			"NormalCode20"
 		"xpos"			"0"
 		"ypos"			"1"
-		"zpos"			"5"
+		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"22"
 		"autoResize"	"0"
@@ -68,7 +100,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"TitleLabelDropshadow"
@@ -76,10 +108,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NormalCode20"
-		"fgcolor"		"ShadowBlack"
 		"xpos"			"1"
 		"ypos"			"2"
-		"zpos"			"4"
+		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"22"
 		"autoResize"	"0"
@@ -88,9 +119,10 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_demolish_title"
 		"textAlignment"	"center"
-		"dulltext"		"1"
+		"dulltext"		"0"
 		"brighttext"	"0"
-	}
+		"fgcolor"		"ShadowBlack"
+	}	
 	
 	"CancelLabel"
 	{	
@@ -110,6 +142,7 @@
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"active_item_1"

@@ -33,22 +33,6 @@
 		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
-	"BackgroundEngineer"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
-		"tileImage"		"0"
-		"tileVertically" "0"
-	}
 	
 	"BuildIcon"	
 	{
@@ -63,7 +47,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 255 255 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"BuildIconShadow"	
@@ -100,7 +84,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"TitleLabelDropshadow"

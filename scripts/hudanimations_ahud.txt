@@ -67,10 +67,15 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
-	Animate PlayerStatusHealthValue 		FgColor 	"HP Low" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpec		FgColor		"HP Low"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP Low" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel	FgColor 	"HP Low" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor 	"HP Low" 	Linear 0.0 0.075
+	Animate PlayerStatusHealthValueSpec			FgColor		"HP Low"	Linear 0.0 0.075
+	Animate PlayerStatusHealthValueSpecgui		FgColor 	"HP Low" 	Linear 0.0 0.075
+	Animate PlayerStatusHealthValueFreezePanel	FgColor 	"HP Low" 	Linear 0.0 0.075
+	
+	Animate PlayerStatusHealthValue 			FgColor 	"LowAmmo1" 	Linear 0.125 0.075
+	Animate PlayerStatusHealthValueSpec			FgColor		"LowAmmo1"	Linear 0.125 0.075
+	Animate PlayerStatusHealthValueSpecgui 		FgColor 	"LowAmmo1" 	Linear 0.125 0.075
+	Animate PlayerStatusHealthValueFreezePanel	FgColor 	"LowAmmo1" 	Linear 0.125 0.075
 	
 	//box
 	//Animate PlayerStatusHealthValue 		FgColor 	"HP" 	Linear 0.0 0.0
@@ -91,7 +96,7 @@ event HudHealthDyingPulse
     //Animate	FreezeHealthBG		Alpha		"200"			Accel 0.0 0.2
 	//Animate	FreezeHealthBG		Alpha		"0"				Accel 0.2 0.4	
 	
-	RunEvent HudHealthDyingPulseLoop	0.4
+	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
 // call to loop HudHealthDyingPulse
@@ -191,8 +196,7 @@ event HudMedicCharged
 	Animate	ChargeLabelMin		FgColor		"0 0 255 0"				Linear 0.8 0.2
 	Animate	ChargeLabelMin		FgColor		"255 0 255 255"			Linear 1.0 0.2
 
-
-	RunEvent HudMedicChargedLoop	1.0
+	RunEvent HudMedicChargedLoop	0.6
 }
 
 // call to loop HudHealthBonusPulse
@@ -208,10 +212,7 @@ event HudMedicChargedStop
 	
 	Animate	ChargeMeter 	FgColor		"Ubercharge Meter"		Linear 0.0 0.0001
 	Animate ChargeLabel 	FgColor 	"ChargePercent" 		Linear 0.0 0.0001
-	Animate ChargeLabelMin 	FgColor 	"Green" 				Linear 0.0 0.0001
-
-	}
-
+}
 
 //===========================================
 
@@ -248,8 +249,7 @@ event HudSpyDisguiseHide
 
 	Animate PlayerStatusSpyOutlineImage	Alpha	"0"	Linear 0.2 0.1
 
-	}
-
+}
 //===========================================
 
 event MMenu_PlayList_Expand

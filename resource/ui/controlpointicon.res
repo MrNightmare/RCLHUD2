@@ -7,8 +7,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"27"
-		"tall"		"27"
+		"wide"		"30"
+		"tall"		"30"
 		"visible"	"1"
 		"enabled"	"1"
 	}
@@ -45,7 +45,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"Code12"
+		"font"			"NormalCode12"
 		"xpos"			"14"
 		"ypos"			"4"
 		"zpos"			"4"

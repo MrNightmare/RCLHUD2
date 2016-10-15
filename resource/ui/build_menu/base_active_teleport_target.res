@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 255 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ItemBackground"
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 255 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"ModeLabel"
@@ -93,7 +93,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"255 255 255 255"
 		"xpos"			"24"
 		"ypos"			"58"
 		"zpos"			"1"

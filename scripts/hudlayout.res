@@ -10,10 +10,10 @@
 
 	KnucklesCrosses
 	{
-		"visible" 		"0"
-		"enabled" 		"0"
+		"visible" 		"1"
+		"enabled" 		"1"
 		
-		"labelText"		"u"
+		"labelText"		"i"
 		
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KnucklesCrosses"
@@ -489,7 +489,7 @@
 		"IconColor"		"Yellow"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"150 0 0 25"		[$WIN32]
+		"BaseBackgroundColor"	"0 0 0 200"		[$WIN32]
 		"LocalBackgroundColor"	"255 255 255 75"	[$WIN32]
 	}
 

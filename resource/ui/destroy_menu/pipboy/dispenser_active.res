@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"200 10 20 255"
 	}
 	
 	"ItemBackground"	
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 0 110 255"
+		"iconColor"		"255 0 0 255"
 	}
 		
 	"BuildingIcon"	
@@ -90,7 +90,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"
-		"fgcolor"		"255 0 110 255"
+		"fgcolor"		"200 10 20 255"
 		"xpos"			"0"
 		"ypos"			"49"
 		"zpos"			"1"

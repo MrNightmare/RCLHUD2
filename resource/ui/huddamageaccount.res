@@ -10,7 +10,7 @@
 		"NegativeColor"			"Damage Numbers" //Damage
 		"delta_lifetime"		"2"
 		"delta_item_font"		"NormalCode20Outline"
-		"delta_item_font_big"	"NormalCode16Outline"
+		"delta_item_font_big"	"NormalCode20Outline"
 	}
 	
 	"DamageAccountValue"
@@ -27,7 +27,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
 		"fgcolor"		"Damage Numbers"
-		"font"			"Code20"
+		"font"			"NormalCode20"
 	}
 	
 	"DamageAccountValueBG"
@@ -44,6 +44,6 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
 		"fgcolor"		"ShadowBlack"
-		"font"			"Code20"
+		"font"			"NormalCode20"
 	}
 }
